@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T13:04:14.689Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.6.5" etag="oYwg8st6hhtqSqjsG7DX" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T13:19:17.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ccBZkvMCsTvwdhsjoZnd" version="21.6.5" type="github">
   <diagram name="第 1 页" id="GnkSj-LzNojJqpakPW1N">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.084;entryY=0.59;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vedu_7hJKqRFqlAsW6-D-1" target="vedu_7hJKqRFqlAsW6-D-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;数据业务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE5FF;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="290" y="300" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="vedu_7hJKqRFqlAsW6-D-4">
+          <mxGeometry width="59.52" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Redis&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vedu_7hJKqRFqlAsW6-D-4">
+          <mxGeometry y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;查询缓存&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;命中，返回数据&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="350" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="vedu_7hJKqRFqlAsW6-D-3" target="vedu_7hJKqRFqlAsW6-D-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="350" />
+              <mxPoint x="270" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vedu_7hJKqRFqlAsW6-D-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;用户请求与数据库映射表&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFFFCC;strokeColor=#CCCC00;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.033;exitY=0.81;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vedu_7hJKqRFqlAsW6-D-2" target="vedu_7hJKqRFqlAsW6-D-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;未命中，查询映射表&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="356" y="306" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="654" y="293" width="60" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-18" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="vedu_7hJKqRFqlAsW6-D-20">
+          <mxGeometry x="6" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;MySQL&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vedu_7hJKqRFqlAsW6-D-20">
+          <mxGeometry y="64" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;查找对应数据库/表&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="306" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-29" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;缓存查询结果&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-31" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;返回查询结果&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="vedu_7hJKqRFqlAsW6-D-2" target="vedu_7hJKqRFqlAsW6-D-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="250" />
+              <mxPoint x="115" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vedu_7hJKqRFqlAsW6-D-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="vedu_7hJKqRFqlAsW6-D-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="684" y="250" />
+              <mxPoint x="320" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
